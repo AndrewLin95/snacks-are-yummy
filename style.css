@@ -67,23 +67,28 @@ img{
     padding-top: 32px;
     padding-bottom: 32px;
     align-items: center;
-    padding-left:100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .page-container.white{
     background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .page-container.grey{
     background-color: #a5a6a9;
+    display:flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 16px;
 }
 
-.header{
-    display:flex;
-    justify-content:space-between;
-    align-items: flex-start;
-    width: 1500px;
+.page-container.footer{
+    justify-content: center;
 }
 
 /* Formatting the major containers */
@@ -97,8 +102,6 @@ img{
 
 .blog-container{
     display:flex;
-    width: 1500px;
-    justify-content: space-between;
 }
 
 .blog-description{
@@ -129,7 +132,7 @@ img{
 .snacks-container{
     display:flex;
     gap: 32px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .snacks-image {
@@ -138,19 +141,3 @@ img{
     object-fit:contain;
     transform: rotate(-90deg);
 }
-
-/* Information CSS */
-
-/* Quotes CSS */
-
-.quotes-container{
-    display:flex;
-    justify-content: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    gap: 16px;
-    width: 1500px;
-}
-
-
-/* Footer */
