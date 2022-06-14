@@ -23,8 +23,14 @@ body{
     color: #949699;
 }
 
+.secondary-text.center{
+    text-align: center;
+}
+
 button{
     background-color: #3882F6;
+    flex-shrink: 0;
+    width: 150px;
 }
 
 .information-text{
@@ -45,21 +51,20 @@ img{
     display:flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-items: center;
 }
 
 .page-sides{
-    flex:1 1 auto;
     width: 100px;
 }
 
 .header{
-    flex:2 1 auto;
     display:flex;
     justify-content:space-between;
     align-items: flex-start;
-    background-size: cover;
-    margin-bottom: 64px;
-    width: 800px;
+    width: 1500px;
 }
 
 /* Formatting the major containers */
@@ -68,7 +73,13 @@ img{
 
 .header-links{
     display:flex;
-    gap: 16px;
+    gap: 8px;
+}
+
+.blog-container{
+    display:flex;
+    width: 1500px;
+    justify-content: space-between;
 }
 
 .blog-description{
@@ -76,16 +87,18 @@ img{
     flex-direction: column;
     height: auto;
     justify-content: center;
+    width: 500px;
+    height: auto;
+    gap: 8px;
 }
 
 .blog-description-header{
     font-size:48px;
     font-weight:bolder;
-
 }
 
 .intro-image{
-    height:350px;
+    height:500px;
     width: 100%;
     object-fit:cover;
 }
@@ -96,14 +109,21 @@ img{
     background-color: rgb(255, 255, 255);
 }
 
-.info-container,
 .snacks-container{
     display:flex;
+    gap: 32px;
+    justify-content: center;
 }
 
 .snacks-image {
     height: 250px;
     width: 100%;
-    object-fit:cover;
+    object-fit:contain;
     transform: rotate(-90deg);
 }
+
+
+
+
+
+/* Footer */
