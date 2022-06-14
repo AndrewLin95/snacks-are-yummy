@@ -3,18 +3,68 @@
 body{
     display:flex;
     flex-direction: column;
-    color: #F9FAF8;
     margin:0 px;
-    background-color: #1F2037;
 }
 
-.header, 
-.intro_section{
+/* Formatting the font, size and color the page */
+.header-text{
+    font-size: 24px;
+    color: #f9FAF8;
+}
+
+.main-text{
+    color: #f9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondary-text{
+    font-size: 18px;
+    color: #949699;
+}
+
+button{
+    background-color: #3882F6;
+}
+
+.information-text{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+img{
+    margin: 16px;
+}
+
+/* Formatting the font, size and color the page */
+
+/* Formatting the major containers */
+.center-container{
+    display:flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.page-sides{
+    flex:1 1 auto;
+    width: 100px;
+}
+
+.header{
+    flex:2 1 auto;
     display:flex;
     justify-content:space-between;
+    align-items: flex-start;
     background-size: cover;
-    margin-bottom: 16px;
+    margin-bottom: 64px;
+    width: 800px;
 }
+
+/* Formatting the major containers */
+
+/* Header CSS */
 
 .header-links{
     display:flex;
@@ -24,8 +74,8 @@ body{
 .blog-description{
     display:flex;
     flex-direction: column;
-    width: 150px;
     height: auto;
+    justify-content: center;
 }
 
 .blog-description-header{
@@ -35,8 +85,25 @@ body{
 }
 
 .intro-image{
-    width:200px;
-    height:auto;
+    height:350px;
+    width: 100%;
+    object-fit:cover;
 }
 
+/* Header CSS */
 
+.center-container.white{
+    background-color: rgb(255, 255, 255);
+}
+
+.info-container,
+.snacks-container{
+    display:flex;
+}
+
+.snacks-image {
+    height: 250px;
+    width: 100%;
+    object-fit:cover;
+    transform: rotate(-90deg);
+}
