@@ -67,6 +67,8 @@ img{
     padding-top: 32px;
     padding-bottom: 32px;
     align-items: center;
+    padding-left:100px;
+    padding-right: 100px;
 }
 
 .page-container.white{
@@ -75,10 +77,6 @@ img{
 
 .page-container.grey{
     background-color: #a5a6a9;
-}
-
-.page-sides{
-    width: 100px;
 }
 
 .header{
