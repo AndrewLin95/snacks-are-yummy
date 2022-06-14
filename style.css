@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    display:flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    margin:0 px;
+    background-color: #1F2037;
+}
+
+.header, 
+.intro_section{
+    display:flex;
+    justify-content:space-between;
+    background-size: cover;
+    margin-bottom: 16px;
+}
+
+.header-links{
+    display:flex;
+    gap: 16px;
+}
+
+.blog-description{
+    display:flex;
+    flex-direction: column;
+    width: 150px;
+    height: auto;
+}
+
+.blog-description-header{
+    font-size:48px;
+    font-weight:bolder;
+
+}
+
+.intro-image{
+    width:200px;
+    height:auto;
+}
+
+
