@@ -27,10 +27,17 @@ body{
     text-align: center;
 }
 
-button{
-    background-color: #3882F6;
-    flex-shrink: 0;
-    width: 150px;
+.quote-text{
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-credit{
+    font-size: 16px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align:right;
 }
 
 .information-text{
@@ -40,6 +47,12 @@ button{
     text-align: center;
 }
 
+button{
+    background-color: #3882F6;
+    flex-shrink: 0;
+    width: 150px;
+}
+
 img{
     margin: 16px;
 }
@@ -47,13 +60,21 @@ img{
 /* Formatting the font, size and color the page */
 
 /* Formatting the major containers */
-.center-container{
+.page-container{
     display:flex;
     justify-content: space-between;
     background-color: #1F2937;
     padding-top: 32px;
     padding-bottom: 32px;
     align-items: center;
+}
+
+.page-container.white{
+    background-color: rgb(255, 255, 255);
+}
+
+.page-container.grey{
+    background-color: #a5a6a9;
 }
 
 .page-sides{
@@ -105,9 +126,7 @@ img{
 
 /* Header CSS */
 
-.center-container.white{
-    background-color: rgb(255, 255, 255);
-}
+/* Information CSS */
 
 .snacks-container{
     display:flex;
@@ -122,8 +141,18 @@ img{
     transform: rotate(-90deg);
 }
 
+/* Information CSS */
 
+/* Quotes CSS */
 
+.quotes-container{
+    display:flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 16px;
+    width: 1500px;
+}
 
 
 /* Footer */
