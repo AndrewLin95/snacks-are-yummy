@@ -53,6 +53,7 @@ button{
     background-color: #3882F6;
     flex-shrink: 0;
     width: 150px;
+    border: solid white 1px;
 }
 
 img{
@@ -91,6 +92,12 @@ img{
 
 .page-container.blog{
     flex-wrap: wrap;
+}
+
+.page-container.action{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
 }
 
 .page-container.footer{
@@ -147,4 +154,16 @@ img{
     width: 100%;
     object-fit:contain;
     transform: rotate(-90deg);
+}
+
+.action-container-outer{
+    background-color:#3882F6;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.action-container-inner{
+    display:flex;
 }
