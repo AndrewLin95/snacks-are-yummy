@@ -54,10 +54,12 @@ button{
     flex-shrink: 0;
     width: 150px;
     border: solid white 1px;
+    border-radius: 8px;
 }
 
 img{
     margin: 16px;
+    border-radius: 25%;
 }
 
 /* Formatting the font, size and color the page */
@@ -162,6 +164,7 @@ img{
     padding-bottom: 24px;
     padding-left: 64px;
     padding-right: 64px;
+    border-radius: 8px;
 }
 
 .action-container-inner{
