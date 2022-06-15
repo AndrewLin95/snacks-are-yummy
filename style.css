@@ -4,6 +4,7 @@ body{
     display:flex;
     flex-direction: column;
     margin:0 px;
+    padding:0 px;
 }
 
 /* Formatting the font, size and color the page */
@@ -62,18 +63,20 @@ img{
     border-radius: 25%;
 }
 
-/* Formatting the font, size and color the page */
-
 /* Formatting the major containers */
 .page-container{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1F2937;
     padding-top: 32px;
     padding-bottom: 32px;
     align-items: center;
     padding-left: 150px;
     padding-right: 150px;
+}
+
+.page-container.header{
+    justify-content: space-between;
 }
 
 .page-container.white{
@@ -106,13 +109,11 @@ img{
     justify-content: center;
 }
 
-/* Formatting the major containers */
-
 /* Header CSS */
 
 .header-links{
     display:flex;
-    gap: 8px;
+    gap: 24px;
 }
 
 .blog-container{
@@ -135,26 +136,21 @@ img{
 }
 
 .intro-image{
-    height:500px;
-    width: 100%;
-    object-fit:cover;
+    width: 35vw;;
 }
-
-/* Header CSS */
 
 /* Information CSS */
 
 .snacks-container{
     display:flex;
     gap: 32px;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .snacks-image {
-    height: 250px;
-    width: 100%;
-    object-fit:contain;
+    width: 150px;
+    height: auto;
     transform: rotate(-90deg);
 }
 
