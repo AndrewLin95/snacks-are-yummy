@@ -5,6 +5,7 @@ body{
     flex-direction: column;
     margin:0 px;
     padding:0 px;
+    border:0 px;
 }
 
 /* Formatting the font, size and color the page */
@@ -123,11 +124,10 @@ img{
 .blog-description{
     display:flex;
     flex-direction: column;
-    height: auto;
     justify-content: center;
-    width: 500px;
-    height: auto;
+    max-width: 500px;
     gap: 8px;
+    flex: 1;
 }
 
 .blog-description-header{
@@ -137,6 +137,7 @@ img{
 
 .intro-image{
     width: 35vw;;
+    max-width: 800px;
 }
 
 /* Information CSS */
@@ -161,6 +162,7 @@ img{
     padding-left: 64px;
     padding-right: 64px;
     border-radius: 8px;
+    width: 500px;
 }
 
 .action-container-inner{
